@@ -1,0 +1,11 @@
+---
+# defaults file for ansible-role-adcs
+
+adcs_features_include_mgt_tools: false
+adcs_features:
+- AD-Certificate
+- ADCS-Cert-Authority
+- ADCS-Enroll-Web-Pol
+- ADCS-Enroll-Web-Svc
+- ADCS-Web-Enrollment
+- ADCS-Online-Cert

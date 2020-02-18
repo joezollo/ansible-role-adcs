@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-adcs
+
+- win_feature:
+    name: "{{ adcs_features }}"
+    include_management_tools: "{{ adcs_features_include_mgt_tools }}"
+    state: present
